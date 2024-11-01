@@ -1,0 +1,471 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		05631A052CAA992900262B53 /* AdminHomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05631A042CAA992900262B53 /* AdminHomeViewController.swift */; };
+		05791DB52CA28B2A00FF3E5C /* SignUpVIewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05791DB42CA28B2A00FF3E5C /* SignUpVIewController.swift */; };
+		05791DB92CA2D2FB00FF3E5C /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05791DB82CA2D2FB00FF3E5C /* ProfileViewController.swift */; };
+		05791DBB2CA3B3E200FF3E5C /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05791DBA2CA3B3E200FF3E5C /* HomeViewController.swift */; };
+		05791DBD2CA3B9EE00FF3E5C /* BooksViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05791DBC2CA3B9EE00FF3E5C /* BooksViewController.swift */; };
+		05791DBF2CA3BF4300FF3E5C /* HomeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05791DBE2CA3BF4300FF3E5C /* HomeTableViewCell.swift */; };
+		05791DC12CA4096C00FF3E5C /* SharedValue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05791DC02CA4096C00FF3E5C /* SharedValue.swift */; };
+		0589688D2CABAFCF00FC47A5 /* AdminHomeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0589688C2CABAFCF00FC47A5 /* AdminHomeTableViewCell.swift */; };
+		058D66B42C99446000B3C9CA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 058D66B32C99446000B3C9CA /* AppDelegate.swift */; };
+		058D66B62C99446000B3C9CA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 058D66B52C99446000B3C9CA /* SceneDelegate.swift */; };
+		058D66B82C99446000B3C9CA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 058D66B72C99446000B3C9CA /* ViewController.swift */; };
+		058D66BB2C99446000B3C9CA /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 058D66BA2C99446000B3C9CA /* Base */; };
+		058D66BE2C99446000B3C9CA /* GramejiaBook.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 058D66BC2C99446000B3C9CA /* GramejiaBook.xcdatamodeld */; };
+		058D66C02C99446200B3C9CA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 058D66BF2C99446200B3C9CA /* Assets.xcassets */; };
+		058D66CE2C994E4800B3C9CA /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 058D66CD2C994E4800B3C9CA /* Launch Screen.storyboard */; };
+		0590029B2CB7AED6005A9ACA /* CartModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0590029A2CB7AED6005A9ACA /* CartModel.swift */; };
+		0590029D2CB7DEF8005A9ACA /* TransactionTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0590029C2CB7DEF8005A9ACA /* TransactionTableViewCell.swift */; };
+		0590029F2CB7DF62005A9ACA /* TransactionModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0590029E2CB7DF62005A9ACA /* TransactionModel.swift */; };
+		059002A12CB8E5A6005A9ACA /* TransactionDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 059002A02CB8E5A6005A9ACA /* TransactionDetailViewController.swift */; };
+		059002A32CB8EF0B005A9ACA /* TransactionDetailTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 059002A22CB8EF0B005A9ACA /* TransactionDetailTableViewCell.swift */; };
+		05F625B92CABCBE200B641A2 /* AddBookViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05F625B82CABCBE200B641A2 /* AddBookViewController.swift */; };
+		05F625BC2CAC093800B641A2 /* bookModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05F625BB2CAC093800B641A2 /* bookModel.swift */; };
+		05F90C142CAFA5B2009D50D1 /* CartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05F90C132CAFA5B2009D50D1 /* CartViewController.swift */; };
+		05F90C1A2CAFA622009D50D1 /* CartTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05F90C192CAFA622009D50D1 /* CartTableViewCell.swift */; };
+		05F90C1E2CAFBD1A009D50D1 /* DetailUserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05F90C1D2CAFBD1A009D50D1 /* DetailUserViewController.swift */; };
+		05F90C202CAFBD34009D50D1 /* DetailAdminViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05F90C1F2CAFBD34009D50D1 /* DetailAdminViewController.swift */; };
+		05F90C222CAFD5D0009D50D1 /* UpdateBookViewcontroller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05F90C212CAFD5D0009D50D1 /* UpdateBookViewcontroller.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		05631A042CAA992900262B53 /* AdminHomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdminHomeViewController.swift; sourceTree = "<group>"; };
+		05791DB42CA28B2A00FF3E5C /* SignUpVIewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpVIewController.swift; sourceTree = "<group>"; };
+		05791DB82CA2D2FB00FF3E5C /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		05791DBA2CA3B3E200FF3E5C /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		05791DBC2CA3B9EE00FF3E5C /* BooksViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BooksViewController.swift; sourceTree = "<group>"; };
+		05791DBE2CA3BF4300FF3E5C /* HomeTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeTableViewCell.swift; sourceTree = "<group>"; };
+		05791DC02CA4096C00FF3E5C /* SharedValue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SharedValue.swift; sourceTree = "<group>"; };
+		0589688C2CABAFCF00FC47A5 /* AdminHomeTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdminHomeTableViewCell.swift; sourceTree = "<group>"; };
+		058D66B02C99446000B3C9CA /* GramejiaBook.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GramejiaBook.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		058D66B32C99446000B3C9CA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		058D66B52C99446000B3C9CA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		058D66B72C99446000B3C9CA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		058D66BA2C99446000B3C9CA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		058D66BD2C99446000B3C9CA /* GramejiaBook.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = GramejiaBook.xcdatamodel; sourceTree = "<group>"; };
+		058D66BF2C99446200B3C9CA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		058D66C42C99446200B3C9CA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		058D66CD2C994E4800B3C9CA /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
+		0590029A2CB7AED6005A9ACA /* CartModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartModel.swift; sourceTree = "<group>"; };
+		0590029C2CB7DEF8005A9ACA /* TransactionTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionTableViewCell.swift; sourceTree = "<group>"; };
+		0590029E2CB7DF62005A9ACA /* TransactionModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionModel.swift; sourceTree = "<group>"; };
+		059002A02CB8E5A6005A9ACA /* TransactionDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionDetailViewController.swift; sourceTree = "<group>"; };
+		059002A22CB8EF0B005A9ACA /* TransactionDetailTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionDetailTableViewCell.swift; sourceTree = "<group>"; };
+		05F625B82CABCBE200B641A2 /* AddBookViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddBookViewController.swift; sourceTree = "<group>"; };
+		05F625BB2CAC093800B641A2 /* bookModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = bookModel.swift; sourceTree = "<group>"; };
+		05F90C132CAFA5B2009D50D1 /* CartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartViewController.swift; sourceTree = "<group>"; };
+		05F90C192CAFA622009D50D1 /* CartTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartTableViewCell.swift; sourceTree = "<group>"; };
+		05F90C1D2CAFBD1A009D50D1 /* DetailUserViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailUserViewController.swift; sourceTree = "<group>"; };
+		05F90C1F2CAFBD34009D50D1 /* DetailAdminViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailAdminViewController.swift; sourceTree = "<group>"; };
+		05F90C212CAFD5D0009D50D1 /* UpdateBookViewcontroller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpdateBookViewcontroller.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		058D66AD2C99446000B3C9CA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		058D66A72C99446000B3C9CA = {
+			isa = PBXGroup;
+			children = (
+				058D66B22C99446000B3C9CA /* GramejiaBook */,
+				058D66B12C99446000B3C9CA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		058D66B12C99446000B3C9CA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				058D66B02C99446000B3C9CA /* GramejiaBook.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		058D66B22C99446000B3C9CA /* GramejiaBook */ = {
+			isa = PBXGroup;
+			children = (
+				05F625BA2CAC092200B641A2 /* Model */,
+				058D66B32C99446000B3C9CA /* AppDelegate.swift */,
+				058D66B52C99446000B3C9CA /* SceneDelegate.swift */,
+				058D66B72C99446000B3C9CA /* ViewController.swift */,
+				058D66B92C99446000B3C9CA /* Main.storyboard */,
+				058D66BF2C99446200B3C9CA /* Assets.xcassets */,
+				058D66C42C99446200B3C9CA /* Info.plist */,
+				058D66BC2C99446000B3C9CA /* GramejiaBook.xcdatamodeld */,
+				058D66CD2C994E4800B3C9CA /* Launch Screen.storyboard */,
+				05791DB42CA28B2A00FF3E5C /* SignUpVIewController.swift */,
+				05791DB82CA2D2FB00FF3E5C /* ProfileViewController.swift */,
+				05791DBA2CA3B3E200FF3E5C /* HomeViewController.swift */,
+				05791DBC2CA3B9EE00FF3E5C /* BooksViewController.swift */,
+				05791DBE2CA3BF4300FF3E5C /* HomeTableViewCell.swift */,
+				05791DC02CA4096C00FF3E5C /* SharedValue.swift */,
+				05631A042CAA992900262B53 /* AdminHomeViewController.swift */,
+				0589688C2CABAFCF00FC47A5 /* AdminHomeTableViewCell.swift */,
+				05F625B82CABCBE200B641A2 /* AddBookViewController.swift */,
+				05F90C132CAFA5B2009D50D1 /* CartViewController.swift */,
+				05F90C192CAFA622009D50D1 /* CartTableViewCell.swift */,
+				05F90C1D2CAFBD1A009D50D1 /* DetailUserViewController.swift */,
+				05F90C1F2CAFBD34009D50D1 /* DetailAdminViewController.swift */,
+				05F90C212CAFD5D0009D50D1 /* UpdateBookViewcontroller.swift */,
+				0590029C2CB7DEF8005A9ACA /* TransactionTableViewCell.swift */,
+				059002A02CB8E5A6005A9ACA /* TransactionDetailViewController.swift */,
+				059002A22CB8EF0B005A9ACA /* TransactionDetailTableViewCell.swift */,
+			);
+			path = GramejiaBook;
+			sourceTree = "<group>";
+		};
+		05F625BA2CAC092200B641A2 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				05F625BB2CAC093800B641A2 /* bookModel.swift */,
+				0590029A2CB7AED6005A9ACA /* CartModel.swift */,
+				0590029E2CB7DF62005A9ACA /* TransactionModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		058D66AF2C99446000B3C9CA /* GramejiaBook */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 058D66C72C99446200B3C9CA /* Build configuration list for PBXNativeTarget "GramejiaBook" */;
+			buildPhases = (
+				058D66AC2C99446000B3C9CA /* Sources */,
+				058D66AD2C99446000B3C9CA /* Frameworks */,
+				058D66AE2C99446000B3C9CA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GramejiaBook;
+			productName = GramejiaBook;
+			productReference = 058D66B02C99446000B3C9CA /* GramejiaBook.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		058D66A82C99446000B3C9CA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					058D66AF2C99446000B3C9CA = {
+						CreatedOnToolsVersion = 15.4;
+						LastSwiftMigration = 1540;
+					};
+				};
+			};
+			buildConfigurationList = 058D66AB2C99446000B3C9CA /* Build configuration list for PBXProject "GramejiaBook" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 058D66A72C99446000B3C9CA;
+			productRefGroup = 058D66B12C99446000B3C9CA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				058D66AF2C99446000B3C9CA /* GramejiaBook */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		058D66AE2C99446000B3C9CA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				058D66CE2C994E4800B3C9CA /* Launch Screen.storyboard in Resources */,
+				058D66C02C99446200B3C9CA /* Assets.xcassets in Resources */,
+				058D66BB2C99446000B3C9CA /* Base in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		058D66AC2C99446000B3C9CA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				05791DB92CA2D2FB00FF3E5C /* ProfileViewController.swift in Sources */,
+				0590029D2CB7DEF8005A9ACA /* TransactionTableViewCell.swift in Sources */,
+				05791DBD2CA3B9EE00FF3E5C /* BooksViewController.swift in Sources */,
+				058D66BE2C99446000B3C9CA /* GramejiaBook.xcdatamodeld in Sources */,
+				05F625B92CABCBE200B641A2 /* AddBookViewController.swift in Sources */,
+				058D66B82C99446000B3C9CA /* ViewController.swift in Sources */,
+				05F90C202CAFBD34009D50D1 /* DetailAdminViewController.swift in Sources */,
+				0589688D2CABAFCF00FC47A5 /* AdminHomeTableViewCell.swift in Sources */,
+				05631A052CAA992900262B53 /* AdminHomeViewController.swift in Sources */,
+				05F90C142CAFA5B2009D50D1 /* CartViewController.swift in Sources */,
+				0590029B2CB7AED6005A9ACA /* CartModel.swift in Sources */,
+				059002A12CB8E5A6005A9ACA /* TransactionDetailViewController.swift in Sources */,
+				058D66B42C99446000B3C9CA /* AppDelegate.swift in Sources */,
+				0590029F2CB7DF62005A9ACA /* TransactionModel.swift in Sources */,
+				05F90C1E2CAFBD1A009D50D1 /* DetailUserViewController.swift in Sources */,
+				05791DB52CA28B2A00FF3E5C /* SignUpVIewController.swift in Sources */,
+				05791DC12CA4096C00FF3E5C /* SharedValue.swift in Sources */,
+				05F90C222CAFD5D0009D50D1 /* UpdateBookViewcontroller.swift in Sources */,
+				05791DBF2CA3BF4300FF3E5C /* HomeTableViewCell.swift in Sources */,
+				059002A32CB8EF0B005A9ACA /* TransactionDetailTableViewCell.swift in Sources */,
+				05791DBB2CA3B3E200FF3E5C /* HomeViewController.swift in Sources */,
+				05F625BC2CAC093800B641A2 /* bookModel.swift in Sources */,
+				058D66B62C99446000B3C9CA /* SceneDelegate.swift in Sources */,
+				05F90C1A2CAFA622009D50D1 /* CartTableViewCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		058D66B92C99446000B3C9CA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				058D66BA2C99446000B3C9CA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		058D66C52C99446200B3C9CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		058D66C62C99446200B3C9CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		058D66C82C99446200B3C9CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = GramejiaBook/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen.storyboard";
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.binus.GramejiaBook;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "GramejiaBook/GramejiaBook-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		058D66C92C99446200B3C9CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = GramejiaBook/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen.storyboard";
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.binus.GramejiaBook;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "GramejiaBook/GramejiaBook-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		058D66AB2C99446000B3C9CA /* Build configuration list for PBXProject "GramejiaBook" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				058D66C52C99446200B3C9CA /* Debug */,
+				058D66C62C99446200B3C9CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		058D66C72C99446200B3C9CA /* Build configuration list for PBXNativeTarget "GramejiaBook" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				058D66C82C99446200B3C9CA /* Debug */,
+				058D66C92C99446200B3C9CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		058D66BC2C99446000B3C9CA /* GramejiaBook.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				058D66BD2C99446000B3C9CA /* GramejiaBook.xcdatamodel */,
+			);
+			currentVersion = 058D66BD2C99446000B3C9CA /* GramejiaBook.xcdatamodel */;
+			path = GramejiaBook.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 058D66A82C99446000B3C9CA /* Project object */;
+}
